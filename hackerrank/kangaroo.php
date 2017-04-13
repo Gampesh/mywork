@@ -1,4 +1,8 @@
 <?php
+/*
+ * sample input/output 0 3 4 2 - YES
+ * sample input/output 0 2 5 3 - NO
+ */
 
 $handle = fopen ("php://stdin","r");
 fscanf($handle,"%d %d %d %d",$x1,$v1,$x2,$v2);
