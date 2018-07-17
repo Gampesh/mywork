@@ -40,3 +40,14 @@ class GCDClass
     }
 
 }
+
+$a = '1';
+var_dump($a);
+
+$b = &$a;
+var_dump($b);
+$b = "2$b";
+
+var_dump($b);
+
+
